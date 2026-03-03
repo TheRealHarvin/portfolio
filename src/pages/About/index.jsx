@@ -1,7 +1,7 @@
 function About() {
   return (
-    <div className="flex flex-col justify-center items-center min-h-screen w-full p-4 md:p-0">
-      <div className="flex flex-start flex-col lg:w-3/6 w-full p-4 lg:p-0">
+    <div id="about" className="flex flex-col justify-center items-center min-h-screen w-full p-4 lg:p-0">
+      <div className="flex flex-start flex-col lg:w-3/6 w-full">
       <div className="pb-4">
         <span className="text-4xl">Hey I'm <strong>Harvin</strong></span>
       </div>

@@ -20,28 +20,30 @@ function Experience() {
   ]
 
   return (
-    <div className="flex flex-col justify-center items-center min-h-screen">
-      <div className="flex flex-start flex-col w-3/6">
+    <div id="experience" className="flex flex-col justify-center items-center min-h-screen p-4 lg:p-0">
+      <div className="flex flex-start flex-col lg:w-3/6 w-full md:p-0">
         <h2>Experience</h2>
       </div>
-      <div className="w-3/6">
-        
+      <div className="w-full lg:w-3/6 lg:p-0">
         {experience.map((experience, key) => {
           return (
-            <div className="flex pb-4" key={key}>
-              <div className="w-2/6"><p>{experience.duration}</p></div>
-              <div className="w-4/6">
+            <div className="flex flex-col lg:flex-row pb-4" key={key}>
+              <div className="lg:w-2/6"><p>{experience.duration}</p></div>
+              <div className="lg:w-4/6">
                 <header className="flex">
                   <strong>{experience.role}</strong>
+                  <p>{experience.company}</p>
                 </header>
                 <p>{experience.description}</p>
                 {experience.projectLink && <a href={`${experience.projectLink}`} className="pb-4"><strong>{experience.projectName}</strong></a>}
-                <div className="pt-4">
+                <div className="pt-4 flex flex-wrap gap-2">
                   {experience.techStack.map((tech, index) => (
-                    <span className="pr-4" key={index}>
-                      <span className="py-1 px-3 rounded-full text-center text-sm" style={{backgroundColor: "#04294C", color: "#fff"}}>
-                        {tech}
-                      </span>
+                    <span 
+                      key={index}
+                      className="py-1 px-3 rounded-full text-center text-xs sm:text-sm"
+                      style={{backgroundColor: "#04294C", color: "#fff"}}
+                    >
+                      {tech}
                     </span>
                   ))}
                 </div>
