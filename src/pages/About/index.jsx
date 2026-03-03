@@ -2,7 +2,7 @@ function About() {
   return (
     <div className="flex flex-col justify-center items-center min-h-screen">
       <div className="flex flex-start flex-col w-3/6">
-      <div>
+      <div className="pb-4">
         <span className="text-4xl">Hey I'm <strong>Harvin</strong></span>
       </div>
       <div className="text-base">
