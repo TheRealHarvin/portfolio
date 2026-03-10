@@ -3,7 +3,7 @@ import { projects } from "../../data/projects";
 function ProjectsPage() {
   return (
     <div id="projects" className="flex flex-col justify-center lg:items-center p-4 lg:p-0 website-content" style={{ minHeight: "50vh" }}>
-      <div className="flex flex-start flex-col w-full sm:w-5/6 md:w-4/5 lg:w-3/6">
+      <div className="flex flex-start flex-col w-full lg:w-3/6">
         <h2 className="text-2xl sm:text-3xl md:text-4xl mb-6 sm:mb-8 pb-4">Projects</h2>
         <div className="flex flex-col gap-6 sm:gap-8">
           {projects.map((project, key) => (
