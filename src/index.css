@@ -18,7 +18,8 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  color: #2D3748;
+  /* color: #2D3748; */
+  color: #1f2532;
 }
 
 html,
@@ -26,18 +27,25 @@ body,
 #root {
   height: 100%;
   margin: 0;
-  background-color: #F7F3EF;
+  /* background-color: #F7F3EF; */
+  /* background-color: #faf9f9; */
+}
+
+html {
+  background: linear-gradient(#aab9cf, #d2dae5, #ebeef3,#f5f7fa);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 body {
   font-family: "Inter-Regular", sans-serif;
 }
 
-h1,
+/* h1,
 h2,
 h3,
 h4,h5,
-h6, 
+h6,  */
 p {
   padding-bottom: 1rem;
 }
@@ -86,4 +94,21 @@ li {
 em,
 i {
   font-family: "Inter-Italic", sans-serif;
+}
+
+li {
+  list-style-type: disc;
+}
+
+.pdf-page {
+  display: none;
+}
+
+@media print {
+  .pdf-page {
+    display: block;
+  }
+  .website-content {
+    display: none;
+  }
 }
