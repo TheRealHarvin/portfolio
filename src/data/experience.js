@@ -22,7 +22,7 @@
       role: "Frontend Web Developer",
       duration: "November 2022 - December 2024",
       description: "Worked on a UI-heavy application focusing on pixel-perfect styling and REST API integrations. Handled bug fixes across FAT, UAT, and Production environments and was responsible for UAT deployments. Ensured consistent cross-browser compatibility maintaining functionality across both web and mobile browsers.",
-      techStack: ["HTML", "JavaScript", "React", "SCSS"],
+      techStack: ["HTML", "JavaScript", "React", "SCSS", "Redux"],
       responsibilites: [
         "Responded to client request to ensure satisfaction and project success",
         "Delivered Figma design with pixel-perfect precision to enhance user experience",

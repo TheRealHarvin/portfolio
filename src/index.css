@@ -32,9 +32,10 @@ body,
 }
 
 html {
-  background: linear-gradient(#aab9cf, #d2dae5, #ebeef3,#f5f7fa);
-  background-attachment: fixed;
-  background-repeat: no-repeat;
+  /* background: linear-gradient(#aab9cf, #d2dae5, #ebeef3,#f5f7fa); */
+  /* background-attachment: fixed;
+  background-repeat: no-repeat; */
+  background-color: #F7F3EF;
 }
 
 body {
